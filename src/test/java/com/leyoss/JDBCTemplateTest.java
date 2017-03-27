@@ -3,6 +3,7 @@ package com.leyoss;
 import com.mysql.cj.jdbc.MysqlDataSource;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.springframework.jdbc.core.JdbcTemplate;
 
@@ -16,6 +17,7 @@ import static java.lang.String.format;
  */
 public class JDBCTemplateTest {
     @Test
+    @Ignore
     public void test() {
         // 创建工作薄
         HSSFWorkbook workbook = new HSSFWorkbook();
